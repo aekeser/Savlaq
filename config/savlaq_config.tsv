@@ -1,0 +1,8 @@
+parameter	value
+project_folder	C:\Users\emrek\OneDrive\Masaüstü\Savlaq
+silence_min_pitch	100
+silence_time_step	0
+silence_threshold_db	-25
+silence_min_silent_duration	0.1
+silence_min_sounding_duration	0.1
+textgrid_tiers	recording citation sentence words vowels notes

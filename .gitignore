@@ -1,0 +1,19 @@
+# R / RStudio
+.RData
+.Rhistory
+.Rproj.user/
+
+# Raw or large research data
+data/raw/
+data/processed/
+*.wav
+data/metadata/*.xlsx
+
+# Generated outputs
+output/
+measurements/
+textgrids/
+
+# System files
+.DS_Store
+Thumbs.db
