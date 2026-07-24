@@ -1,5 +1,6 @@
 parameter	value
 project_folder	C:\Users\emrek\OneDrive\Masaüstü\Savlaq
+praat_executable	C:\Users\emrek\OneDrive\Masaüstü\Praat.exe
 silence_min_pitch	100
 silence_time_step	0
 silence_threshold_db	-25

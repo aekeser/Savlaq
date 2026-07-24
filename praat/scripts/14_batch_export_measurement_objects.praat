@@ -6,18 +6,18 @@ include ../core/measure_region_f0.praat
 include ../core/measure_region_intensity.praat
 include ../core/measure_region_formants.praat
 
-form Batch export Measurement Objects
-    sentence projectFolder C:\Users\emrek\OneDrive\Masaüstü\Savlaq
+# Non-interactive Savlaq settings
 
-    positive pitchFloor 75
-    positive pitchCeiling 500
-    positive intensityMinimumPitch 100
+projectFolder$ = "C:/Users/emrek/OneDrive/Masaüstü/Savlaq"
 
-    positive maximumFormant 5500
-    positive numberOfFormants 5
-    positive formantWindowLength 0.025
-    positive preEmphasisFrom 50
-endform
+pitchFloor = 75
+pitchCeiling = 500
+intensityMinimumPitch = 100
+
+maximumFormant = 5500
+numberOfFormants = 5
+formantWindowLength = 0.025
+preEmphasisFrom = 50
 
 audioFolder$ = projectFolder$ + "\data\examples\"
 intervalFolder$ = projectFolder$ + "\measurements\diagnostics\"

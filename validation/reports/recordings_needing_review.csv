@@ -1,0 +1,4 @@
+"recording_file","word","overall_status","overall_qc_flag","mean_f0","mean_intensity","f1","f2"
+"M001_EN_HUMAN_EN_ADJ_001.wav","beautiful","needs_review","nucleus_count_mismatch",145.273281,69.331228,290.931854,2268.490641
+"TM001_EN_ELEVENLABS_EN_ADJ_001.wav","beautiful","needs_review","nucleus_count_mismatch",150.011492,68.831876,246.540142,1033.820633
+"M001_TR_HUMAN_TR_ADJ_001.wav","sevecen","needs_review","low_voiced_frame_coverage",114.789366,67.843614,478.109675,1826.070102
