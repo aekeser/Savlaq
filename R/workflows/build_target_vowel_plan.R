@@ -25,10 +25,14 @@ target_vowel_plan <- recording_database[, c(
   "target_vowel_for_F1F2"
 )]
 
-write.csv(
+write.table(
   target_vowel_plan,
   file = "output/target_vowel_plan.csv",
-  row.names = FALSE
+  sep = ",",
+  row.names = FALSE,
+  col.names = TRUE,
+  quote = FALSE,
+  na = ""
 )
 
 message("Savlaq target-vowel plan written to output/target_vowel_plan.csv")

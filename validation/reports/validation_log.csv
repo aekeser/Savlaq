@@ -1,0 +1,6 @@
+recording_file,language,source,expected_syllables,detected_nuclei,target_correct,overall_status,review_reason,notes
+HM001_TR_HUMAN_TR_ADJ_001.wav,TR,HUMAN,3,3,TRUE,needs_review,low_voiced_frame_coverage,
+HF001_TR_HUMAN_TR_ADJ_001.wav,TR,HUMAN,3,3,TRUE,accepted,,
+HM001_EN_HUMAN_EN_ADJ_001.wav,EN,HUMAN,3,4,TRUE,needs_review,nucleus_count_mismatch,Possible L2 pronunciation
+HF001_EN_HUMAN_EN_ADJ_001.wav,EN,HUMAN,3,3,TRUE,accepted,,
+TM001_EN_ELEVENLABS_EN_ADJ_001.wav,EN,ELEVENLABS,3,5,TRUE,needs_review,nucleus_count_mismatch,Possible TTS multi-peak behavior
